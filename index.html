@@ -1,11 +1,31 @@
 <!doctype html>
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <title>We are the Champions</title>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <title>We are the Champions</title>
+
+    <!-- GOOGLE FONTS-->
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Josefin+Sans:wght@400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <img src="assets/freddie.png" alt="freddie">
         <h1>We are the Champions</h1>
-        <script src="index.js"></script>
-    </body>
+        <textarea type="text" id="input-field" placeholder="Write your endorsement here" cols="50" rows="9"></textarea>
+        <button class="publish-button" id="publish-button">Publish</button>
+        <h1>- Endorsements -</h1>
+        <ul class="endorsements">
+        </ul>
+    </div>
+
+    <script src="index.js" type="module"></script>
+</body>
+
 </html>
